@@ -1,0 +1,27 @@
+
+DYNAMIC CSS PATH
+
+If fixed part is at Starting ^
+If fixed part is at Middle *
+If fixed part is at End $
+	
+tag[attribute* ='value']
+	
+Element ID = YumRegisterationForm_firstname
+	
+input[id^='YumRegisteration']
+input[id*='YumRegisterationForm_first']
+input[id$='Form_first']
+
+*******************************************************
+
+DYNAMIC XPATH PATH
+
+//tag[@attribute='value']
+
+Starts with 
+//tag[starts-with(@attribute, 'fixed x-path')]
+//tag[starts-with(@id, 'YumRegisterationForm_firsts')]
+
+Contains
+//tag[contains(@attribute, 'fixed x-path')]

@@ -2,16 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9207" started-at="2018-06-14T09:31:12Z" finished-at="2018-06-14T09:31:21Z">
+  <suite name="Default suite" duration-ms="65435" started-at="2018-06-15T12:25:39Z" finished-at="2018-06-15T12:26:44Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9207" started-at="2018-06-14T09:31:12Z" finished-at="2018-06-14T09:31:21Z">
-      <class name="training.Zero.To.Hero.Selenium.Verify_Title">
-        <test-method status="PASS" signature="Verify()[pri:0, instance:training.Zero.To.Hero.Selenium.Verify_Title@1d057a39]" name="Verify" duration-ms="9176" started-at="2018-06-14T09:31:12Z" finished-at="2018-06-14T09:31:21Z">
+    <test name="Default test" duration-ms="65435" started-at="2018-06-15T12:25:39Z" finished-at="2018-06-15T12:26:44Z">
+      <class name="training.Zero.To.Hero.Selenium.Find_Broken_Links">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:training.Zero.To.Hero.Selenium.Find_Broken_Links@3ffc5af1]" name="openBrowser" is-config="true" duration-ms="12749" started-at="2018-06-15T12:25:39Z" finished-at="2018-06-15T12:25:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Verify -->
-      </class> <!-- training.Zero.To.Hero.Selenium.Verify_Title -->
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="Verify_Links()[pri:0, instance:training.Zero.To.Hero.Selenium.Find_Broken_Links@3ffc5af1]" name="Verify_Links" duration-ms="51767" started-at="2018-06-15T12:25:52Z" finished-at="2018-06-15T12:26:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Links -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:training.Zero.To.Hero.Selenium.Find_Broken_Links@3ffc5af1]" name="tearDown" is-config="true" duration-ms="865" started-at="2018-06-15T12:26:44Z" finished-at="2018-06-15T12:26:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- training.Zero.To.Hero.Selenium.Find_Broken_Links -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

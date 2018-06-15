@@ -1,0 +1,21 @@
+
+Link features:
+1. //a[text()='Features']
+2. //a[contains(text(),'Features')] -- Recommended
+3. //a[text()='Alerts']
+
+Button:
+//button[@type='button' and @class='btn']
+//button[contains(text(),'Sign Up')]
+
+//div[@class='dropdown']//button[@type='button and @class='btn btn-secondary dropdown-toggle' and
+@id='dropdownMenuButton']
+
+//button[@id='dropdownMenuButton']
+
+//a[text()='test2 test2']//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']/7input
+
+//*[@id="vContactsForm"]/table/tbody/tr[6]/td[1]/input
+
+//a[text()='test2 test2']//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//
+input[@name='contact_id']

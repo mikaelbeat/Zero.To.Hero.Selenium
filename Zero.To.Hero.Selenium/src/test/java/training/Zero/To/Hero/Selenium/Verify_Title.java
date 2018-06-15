@@ -17,6 +17,8 @@ public class Verify_Title {
 		driver.get("https://www.fantasiapelit.com");
 		
 		String ActualTitle = driver.getTitle();
+		System.out.println("EXPECTED: " +ExpectedTitle);
+		System.out.println("ACTUAL: " + ActualTitle);
 		Assert.assertEquals(ExpectedTitle, ActualTitle);
 		driver.close();
 		
