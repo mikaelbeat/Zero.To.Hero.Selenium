@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="65435" started-at="2018-06-15T12:25:39Z" finished-at="2018-06-15T12:26:44Z">
+  <suite name="Default suite" duration-ms="21078" started-at="2018-06-18T07:09:49Z" finished-at="2018-06-18T07:10:10Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="65435" started-at="2018-06-15T12:25:39Z" finished-at="2018-06-15T12:26:44Z">
+    <test name="Default test" duration-ms="21078" started-at="2018-06-18T07:09:49Z" finished-at="2018-06-18T07:10:10Z">
       <class name="training.Zero.To.Hero.Selenium.Find_Broken_Links">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:training.Zero.To.Hero.Selenium.Find_Broken_Links@3ffc5af1]" name="openBrowser" is-config="true" duration-ms="12749" started-at="2018-06-15T12:25:39Z" finished-at="2018-06-15T12:25:52Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:training.Zero.To.Hero.Selenium.Find_Broken_Links@169bb4dd]" name="openBrowser" is-config="true" duration-ms="6692" started-at="2018-06-18T07:09:49Z" finished-at="2018-06-18T07:09:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="Verify_Links()[pri:0, instance:training.Zero.To.Hero.Selenium.Find_Broken_Links@3ffc5af1]" name="Verify_Links" duration-ms="51767" started-at="2018-06-15T12:25:52Z" finished-at="2018-06-15T12:26:44Z">
+        <test-method status="PASS" signature="Verify_Links()[pri:0, instance:training.Zero.To.Hero.Selenium.Find_Broken_Links@169bb4dd]" name="Verify_Links" duration-ms="13568" started-at="2018-06-18T07:09:56Z" finished-at="2018-06-18T07:10:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Links -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:training.Zero.To.Hero.Selenium.Find_Broken_Links@3ffc5af1]" name="tearDown" is-config="true" duration-ms="865" started-at="2018-06-15T12:26:44Z" finished-at="2018-06-15T12:26:44Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:training.Zero.To.Hero.Selenium.Find_Broken_Links@169bb4dd]" name="tearDown" is-config="true" duration-ms="670" started-at="2018-06-18T07:10:10Z" finished-at="2018-06-18T07:10:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

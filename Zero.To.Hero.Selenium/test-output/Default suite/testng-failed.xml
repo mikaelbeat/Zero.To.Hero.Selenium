@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="training.Zero.To.Hero.Selenium.Verify_Yahoo_Title">
+      <class name="training.Zero.To.Hero.Selenium.Is_Element_Present">
         <methods>
-          <include name="Verify"/>
+          <include name="verifyCreateAccountText"/>
+          <include name="tearDown"/>
+          <include name="openBrowser"/>
         </methods>
-      </class> <!-- training.Zero.To.Hero.Selenium.Verify_Yahoo_Title -->
+      </class> <!-- training.Zero.To.Hero.Selenium.Is_Element_Present -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
