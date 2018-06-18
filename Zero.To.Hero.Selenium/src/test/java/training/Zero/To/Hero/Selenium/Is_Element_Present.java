@@ -15,9 +15,6 @@ public class Is_Element_Present {
 	// It will open the browser & Application before Test
 	@BeforeTest
 	public void openBrowser() {
-		System.setProperty("webdriver.chrome.driver", "D://Drivers//chromedriver.exe");
-		
-
 		// To maximize the Window
 		driver.manage().window().maximize();
 		// To Open the Application
@@ -25,11 +22,9 @@ public class Is_Element_Present {
 	}
 
 	@Test
-	public void verifyCreateAccountText() {
-
+	public void Verify_Is_Element_Present() {
 		WebElement createAccountLabel = driver.findElement(By.cssSelector("div[class='mbs _52lq fsl fwb fcb'] span"));
 		boolean flag = createAccountLabel.isDisplayed();
-
 		System.out.println("Text is Present : " + flag);
 		System.out.println("Text is : " +createAccountLabel.getText());
 		Assert.assertTrue(flag);
