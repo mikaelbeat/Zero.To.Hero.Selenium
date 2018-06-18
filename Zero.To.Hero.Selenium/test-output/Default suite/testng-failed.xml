@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="training.Zero.To.Hero.Selenium.Dropdowns">
+      <class name="training.Zero.To.Hero.Selenium.Handle_Multiple_Windows">
         <methods>
-          <include name="selectbyTextTest"/>
+          <include name="multiWindowTest"/>
           <include name="openBrowser"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- training.Zero.To.Hero.Selenium.Dropdowns -->
+      </class> <!-- training.Zero.To.Hero.Selenium.Handle_Multiple_Windows -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
