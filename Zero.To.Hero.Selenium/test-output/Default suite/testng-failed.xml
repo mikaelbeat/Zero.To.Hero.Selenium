@@ -3,13 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="training.Zero.To.Hero.Selenium.JavaScript_Page_Functions">
+      <class name="training.Zero.To.Hero.Selenium.ScreenShot_Example">
         <methods>
-          <include name="pageTitleJSTest"/>
-          <include name="openBrowser"/>
-          <include name="tearDown"/>
+          <include name="openApplication"/>
+          <include name="fillRegistrationformTest"/>
+          <include name="endTest"/>
+          <include name="setTestResult"/>
+          <include name="startTest"/>
+          <include name="verifyTittleTest"/>
         </methods>
-      </class> <!-- training.Zero.To.Hero.Selenium.JavaScript_Page_Functions -->
+      </class> <!-- training.Zero.To.Hero.Selenium.ScreenShot_Example -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
