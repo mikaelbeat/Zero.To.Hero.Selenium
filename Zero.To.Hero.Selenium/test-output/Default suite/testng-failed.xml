@@ -5,10 +5,9 @@
     <classes>
       <class name="training.Zero.To.Hero.Selenium.ScreenShot_Example">
         <methods>
+          <include name="afterMethod"/>
           <include name="openApplication"/>
-          <include name="fillRegistrationformTest"/>
           <include name="endTest"/>
-          <include name="setTestResult"/>
           <include name="startTest"/>
           <include name="verifyTittleTest"/>
         </methods>
