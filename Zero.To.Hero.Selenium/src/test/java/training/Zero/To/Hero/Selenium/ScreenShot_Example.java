@@ -59,8 +59,7 @@ public class ScreenShot_Example {
 			  String path = training.Zero.To.Hero.Selenium.Utils.Screenshot.takeScreenshot(driver, testResult.getName());
 			  ExtentTest imagePath = test.addScreenCaptureFromPath(path);
 			  test.log(Status.FAIL, "Verify Welcome Text Failed.");
-//			  test.log(LogStatus.FAIL, "Verify Welcome Text Failed.", imagePath);
-	
+//			  test.log(LogStatus.FAIL, "Verify Welcome Text Failed.", imagePath)	
 		  }
 	  }
 
